@@ -18,10 +18,8 @@ for j in range(len(min(a))):
          b.append(a[i][j])
     else:
          break
-    c=0
-            
-                     
-print ''.join(b)
-
-
-
+    c=0                    
+if b:
+    print ''.join(b)
+else:
+    print "No matches"
